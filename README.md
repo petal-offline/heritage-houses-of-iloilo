@@ -16,7 +16,7 @@ All site code and image files are in the repository. Google Fonts are an optiona
 
 ## Content and media notes
 
-- The four destination photographs are genuine photographs of the named Jaro sites. The Ilonggo food image is an authentic photograph and has not been generated.
+- The four destination photographs are genuine photographs of the named Jaro sites. The Kansi image is an authentic photograph and has not been generated.
 - Photo credits and story references appear in the site's “Stories, sources & photo credits” disclosure and in [`CREDITS.md`](CREDITS.md).
 - The first-visit welcome runs automatically and can be skipped. Reduced-motion preferences are respected.
 - The “Made By” section uses a landscape crop of the supplied group photograph.

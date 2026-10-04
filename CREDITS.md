@@ -6,7 +6,7 @@
 - **Balay Sueño:** [She Mae Gomez — Modesto Ledesma House](https://shemaegomez.com/modesto-ledesma-house/). Local heritage account. The site copy keeps details broad and does not rely on disputed dates.
 - **Lizares Mansion:** [National Museum of the Philippines, 2015 Annual Report](https://www.nationalmuseum.gov.ph/wp-content/uploads/2021/07/2015-NM-Annual-Report.pdf), p. 58. The report lists the Lizares–Gamboa Mansion in Jaro as an old mansion.
 - **Casa Mariquit:** [Western Visayas Regional Statistical Yearbook, Chapter 8: Tourism](https://rsc6.gov.ph/wp-content/uploads/2024/10/WV-RSET-Chapter-8-TOURISM.pdf), p. 19. Used for the 1803 construction, dual bank/residence use, family connection, and house details.
-- **Iloilo cuisine and location context:** [Love the Philippines — Iloilo City](https://philippines.travel/destinations/iloilo/index) and [Iloilo City Tourism](https://invest.iloilocity.app/?page_id=1224).
+- **Iloilo cuisine and location context:** [Cansi/Kansi](https://en.wikipedia.org/wiki/Cansi), [Love the Philippines — Iloilo City](https://philippines.travel/destinations/iloilo/index), and [Iloilo City Tourism](https://invest.iloilocity.app/?page_id=1224).
 
 ## Images
 
@@ -22,4 +22,4 @@ Wikimedia Commons photographs are shown with CSS cropping, sizing, and subtle di
 | `assets/images/balay-sueno-interior.jpg` | Balay Sueño interior — Jenn Causing | [Unsplash](https://unsplash.com/photos/elegant-living-room-with-chandelier-and-ornate-furniture-wMrgMaPt26E) · Unsplash License |
 | `assets/images/lizares-mansion.jpg` | Villa Lizares (Lizares Mansion) — Johngaje92 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Villa_Lizares_(Lizares_Mansion).jpg) · CC BY-SA 4.0 |
 | `assets/images/casa-mariquit.jpg` | Casa Mariquit — Ryomaandres | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Casa_Mariquit.jpg) · CC BY-SA 4.0 |
-| `assets/images/iloilo-batchoy.jpg` | Iloilo Batchoy with Puto — Ralff Nestor Nacor | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iloilo_Batchoy_with_Puto.jpg) · CC BY-SA 4.0 |
+| `assets/images/kansi.jpg` | Cansi/Kansi soup — Nuwordlife0rder | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cansi.jpg) · CC BY-SA 4.0 |
