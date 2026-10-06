@@ -221,6 +221,12 @@ main { overflow: clip; }
 .visit-section__header h2 { font-size: clamp(3.8rem, 7vw, 7rem); }
 .visit-section__header > p:last-child { max-width: 34rem; color: #51584f; font-size: .92rem; }
 .visit-notes { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 5rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.visit-hours { margin-top: 3.7rem; }
+.visit-hours > .eyebrow { margin-bottom: .55rem; }
+.visit-hours__title { color: var(--forest); font-family: var(--serif); font-size: clamp(2rem, 3vw, 2.8rem); font-weight: 500; line-height: 1; }
+.visit-hours .visit-hours__grid { margin-top: 1.3rem; }
+.visit-hours__grid .visit-note { min-height: 12rem; }
+.visit-hours__grid .visit-note h3 { font-size: clamp(1.35rem, 1.75vw, 1.75rem); }
 .visit-note { min-height: 14rem; padding: 1.45rem 1.2rem 1.35rem; }
 .visit-note:first-child { padding-left: 0; }
 .visit-note + .visit-note { border-left: 1px solid var(--line); }
@@ -397,6 +403,8 @@ main { overflow: clip; }
   .visit-section__header .eyebrow { grid-column: auto; }
   .visit-section__header > p:last-child { font-size: .86rem; }
   .visit-notes { grid-template-columns: 1fr 1fr; margin-top: 3.5rem; }
+  .visit-hours { margin-top: 2.8rem; }
+  .visit-hours .visit-hours__grid { margin-top: 1.2rem; }
   .visit-note { min-height: 13rem; padding: 1.1rem .8rem; }
   .visit-note:nth-child(odd) { padding-left: 0; border-right: 1px solid var(--line); }
   .visit-note:nth-child(even) { padding-right: 0; }
