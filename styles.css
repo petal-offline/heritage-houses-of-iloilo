@@ -69,7 +69,7 @@ main { overflow: clip; }
 .welcome__skip span { color: var(--gold); font-size: 1rem; transition: transform .2s ease; }
 .welcome__skip:hover span { transform: translate(2px, -2px); }
 .welcome__rule { position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: rgba(255, 255, 255, .12); }
-.welcome__rule span { display: block; width: 100%; height: 100%; background: var(--gold); transform: scaleX(0); transform-origin: left; animation: welcome-rule 3.1s linear forwards; }
+.welcome__rule span { display: block; width: 100%; height: 100%; background: var(--gold); transform: scaleX(0); transform-origin: left; animation: welcome-rule 7s linear forwards; }
 .welcome.is-gone { visibility: hidden; opacity: 0; pointer-events: none; }
 @keyframes reveal-house { to { opacity: 1; transform: none; } }
 @keyframes welcome-rule { to { transform: scaleX(1); } }

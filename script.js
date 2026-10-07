@@ -19,7 +19,7 @@
     window.setTimeout(() => welcome.remove(), 800);
   }
 
-  welcomeTimer = window.setTimeout(dismissWelcome, reduceMotion ? 900 : 3300);
+  welcomeTimer = window.setTimeout(dismissWelcome, 7000);
   skipWelcome?.addEventListener('click', dismissWelcome);
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') dismissWelcome();

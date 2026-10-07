@@ -1,6 +1,6 @@
 # Heritage Houses of Iloilo
 
-A single-page, static cultural-tourism experience. The opening introduces Jaro Plaza, then the route continues through Agatona → Balay Sueño → Lizares Mansion → Casa Mariquit.
+A single-page, static cultural-tourism experience. The opening introduces Jaro Plaza, then the route continues through Lizares Mansion → Balay Sueño → Casa Mariquit → Agatona.
 
 ## Run locally
 
@@ -18,7 +18,7 @@ All site code and image files are in the repository. Google Fonts are an optiona
 
 - The four destination photographs are genuine photographs of the named Jaro sites. The Kansi image is an authentic photograph and has not been generated.
 - Photo credits and story references appear in the site's “Stories, sources & photo credits” disclosure and in [`CREDITS.md`](CREDITS.md).
-- The first-visit welcome runs automatically and can be skipped. Reduced-motion preferences are respected.
+- The welcome screen runs for 7 seconds and can be skipped. Reduced-motion preferences are respected.
 - The “Made By” section uses a landscape crop of the supplied group photograph.
 - No audio file was included in the workspace. The site does not substitute unrelated music. If an authorized copy of “The Amazing Shadows” is provided for this presentation, add an optional, user-controlled audio player then.
 - Showcase phone and email details are illustrative, as identified on the page.
