@@ -165,7 +165,7 @@ main { overflow: clip; }
 .fact-line p { color: #51584f; font-size: .76rem; }
 .fact-line > span:last-child { margin-left: auto; color: #73766e; font-size: .57rem; letter-spacing: .1em; text-transform: uppercase; }
 
-.food-interlude { position: relative; display: grid; grid-template-columns: minmax(18rem, .92fr) minmax(20rem, .8fr); gap: clamp(3rem, 11vw, 11rem); align-items: center; overflow: hidden; padding: 8rem max(var(--gutter), calc((100vw - var(--content-width)) / 2)); background: var(--forest); color: var(--paper-light); }
+.food-interlude { position: relative; display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, .8fr); gap: clamp(3rem, 7vw, 7rem) clamp(3rem, 11vw, 11rem); align-items: center; overflow: hidden; padding: 8rem max(var(--gutter), calc((100vw - var(--content-width)) / 2)); background: var(--forest); color: var(--paper-light); }
 .food-interlude::after { position: absolute; right: -8rem; bottom: -19rem; width: 42rem; height: 42rem; border: 1px solid rgba(216, 194, 143, .17); border-radius: 50%; box-shadow: 0 0 0 2.7rem rgba(216, 194, 143, .035), 0 0 0 5.5rem rgba(216, 194, 143, .025); content: ""; pointer-events: none; }
 .food-interlude__photo { position: relative; z-index: 1; height: clamp(19rem, 37vw, 34rem); }
 .food-interlude__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; filter: saturate(.76) contrast(1.04); }
@@ -174,9 +174,17 @@ main { overflow: clip; }
 .food-interlude h2 { color: var(--paper-light); font-family: var(--serif); font-size: clamp(4rem, 7.5vw, 7.4rem); font-weight: 400; letter-spacing: -.055em; line-height: .81; }
 .food-interlude h2 em { color: var(--gold); font-weight: 400; }
 .food-interlude__copy > p:not(.eyebrow) { max-width: 30rem; margin-top: 1.5rem; color: rgba(248, 244, 235, .81); font-size: .88rem; }
-.food-list { display: flex; flex-wrap: wrap; gap: .55rem 1.25rem; margin-top: 1.6rem; padding-top: 1.15rem; border-top: 1px solid rgba(245, 240, 228, .26); color: #e0d0a5; font-family: var(--serif); font-size: 1.2rem; }
-.food-list span:not(:last-child)::after { content: "·"; margin-left: 1.2rem; color: rgba(248, 244, 235, .45); }
-.food-interlude__note { position: absolute; right: var(--gutter); bottom: 1.4rem; color: rgba(248, 244, 235, .52); font-size: .5rem; letter-spacing: .13em; }
+.food-interlude__featured { max-width: 30rem; margin-top: 1.6rem; padding-top: 1.15rem; border-top: 1px solid rgba(245, 240, 228, .26); }
+.food-interlude h3 { color: var(--gold); font-family: var(--serif); font-size: clamp(2.4rem, 4vw, 3.6rem); font-weight: 400; letter-spacing: -.035em; line-height: 1; }
+.food-interlude__featured h3 { font-size: 2.1rem; }
+.food-interlude__featured p, .food-story__copy > p:not(.eyebrow) { margin-top: .7rem; color: rgba(248, 244, 235, .81); font-size: .88rem; }
+.food-interlude__companions { position: relative; z-index: 1; grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); padding-top: 2.5rem; border-top: 1px solid rgba(245, 240, 228, .26); }
+.food-story { min-width: 0; }
+.food-story__photo { position: relative; overflow: hidden; }
+.food-story__photo img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; filter: saturate(.76) contrast(1.04); }
+.food-story__photo figcaption { position: absolute; inset: auto 0 0; padding: 2.6rem 1rem .9rem; background: linear-gradient(transparent, rgba(16, 27, 22, .8)); color: white; font-size: .59rem; letter-spacing: .08em; }
+.food-story__copy { max-width: 30rem; padding-top: 1.5rem; }
+.food-story__copy .eyebrow { margin-bottom: .65rem; }
 
 .balay-note { display: grid; grid-template-columns: 1fr .84fr; gap: clamp(3rem, 9vw, 9rem); align-items: end; }
 .balay-note h2 { font-size: clamp(4rem, 7.4vw, 7.6rem); }
@@ -373,7 +381,8 @@ main { overflow: clip; }
   .food-interlude__photo { height: 17rem; }
   .food-interlude h2 { font-size: clamp(3.7rem, 14vw, 5.8rem); }
   .food-interlude__copy > p:not(.eyebrow) { font-size: .86rem; }
-  .food-interlude__note { bottom: .7rem; left: var(--gutter); font-size: .44rem; }
+  .food-interlude__companions { grid-template-columns: 1fr; gap: 2.75rem; padding-top: 2rem; }
+  .food-story__copy { padding-top: 1.2rem; }
   .balay-note { align-items: start; }
   .material-strip { grid-template-columns: 1fr; margin-top: 3.5rem; }
   .material-strip span { padding: .8rem .25rem; }

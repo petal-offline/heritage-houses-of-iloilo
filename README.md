@@ -16,7 +16,7 @@ All site code and image files are in the repository. Google Fonts are an optiona
 
 ## Content and media notes
 
-- The four destination photographs are genuine photographs of the named Jaro sites. The Kansi image is an authentic photograph and has not been generated.
+- The four destination photographs are genuine photographs of the named Jaro sites. Kansi, KBL, and Biscocho are featured with authentic food photographs, short descriptions, and a responsive layout.
 - Photo credits and story references appear in the site's “Stories, sources & photo credits” disclosure and in [`CREDITS.md`](CREDITS.md).
 - The welcome screen runs for 7 seconds and can be skipped. Reduced-motion preferences are respected.
 - The “Made By” section uses a landscape crop of the supplied group photograph.
